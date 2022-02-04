@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	background-color: #0D1A2D;
+	font-family: 'Outfit', sans-serif;
+	height: 50%;
+	margin: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+.container {
+	position: absolute;
+  	width: 240px;
+  	height: 410px;
+  	background-color: hsl(216, 50%, 16%);
+  	border-radius: 10px;
+  	top:0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
+  	text-align: center;
+
+}
+.showimage {
+	width: 100%;
+	padding: 15px 15px 0px 15px;
+}
+.img1 {
+	width: 100%;
+	border-radius: 5px 5px 5px 5px;
+}
+h1 {
+	position: relative;
+	color: hsl(0, 0%, 100%);
+	padding-left: 18px;
+	font-weight: 600;
+	font-size: 15px;
+	text-align: left;
+}
+.sub {
+	color: hsl(215, 51%, 70%);
+	font-size: 12px;
+	font-weight: 300;
+	text-align: left;
+	padding-left: 15px;
+}
+.first {
+	display: flex;
+	align-items: center;
+    padding-left: 15px;
+}
+.eth {
+	color: hsl(178, 100%, 50%);
+	font-size: 10px;
+	font-weight: 600;
+	padding-left: 4px;
+}
+.row {
+	display: flex;
+	align-items: center;
+}
+.next {
+	display: flex;
+	align-items: center;
+    padding-left: 80px;
+}
+
+.threedays {
+	color: hsl(215, 51%, 70%);
+	font-size: 10px;
+	font-weight: 400;
+	padding-left: 4px;
+}
+hr {
+	width: 210px;
+	border-width: 1px;
+	border-color: hsl(215, 32%, 27%);
+}
+.avi {
+	border: 1px solid white;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+}
+.last {
+	display: flex;
+	align-items: center;
+    padding-left: 15px;
+}
+span {
+	color: hsl(215, 51%, 70%);
+}
+.att {
+	color: hsl(0, 0%, 100%);
+	font-size: 11.5px;
+	font-weight: 300;
+	padding-left: 6px;
+}
