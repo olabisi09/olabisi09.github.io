@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirp Twitter Analytics</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-body1 font-inter text-maintext">
+    <header class="py-10 px-8 md:px-16">
+        <div class="container flex justify-between items-center mx-auto px-16 md:px-20 w-full">
+            <div class="text-twitter font-bold italic text-lg"><a href="./index.html">Chirp.</a></div>
+            <div class="hidden text-md md:flex gap-6 items-center">
+                <a>Home</a>
+                <a>Pricing</a>
+                <a>FAQ</a>
+                <button class="text-white flex px-4 py-2.5 bg-twitter rounded font-medium">
+                    <svg class="mr-2 mt-0.5" width="20" height="18" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 2.55699C23.117 2.94899 22.168 3.21299 21.172 3.33199C22.189 2.72299 22.97 1.75799 23.337 0.607986C22.386 1.17199 21.332 1.58199 20.21 1.80299C19.313 0.845986 18.032 0.247986 16.616 0.247986C13.437 0.247986 11.101 3.21399 11.819 6.29299C7.728 6.08799 4.1 4.12799 1.671 1.14899C0.381 3.36199 1.002 6.25699 3.194 7.72299C2.388 7.69699 1.628 7.47599 0.965 7.10699C0.911 9.38799 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10599C22.505 4.41099 23.34 3.54399 24 2.55699Z" fill="white"/>
+                    </svg>
+                    Sign in with Twitter
+                </button>
+            </div>
+            <div class="md:hidden">
+                <button>
+                    <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 4H0V0H24V4ZM24 8H0V12H24V8ZM24 16H0V20H24V16Z" fill="black"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="flex flex-col-reverse lg:flex-row gap-10 px-8 md:px-36">
+        <!-- LEFT SIDE -->
+        <div class="lg:w-1/2 flex flex-col gap-6">
+            <h1 class="font-bold text-4xl sm:text-4xl text-black leading-tight">Twitter analytics taken to a whole new level.</h1>
+            <p class="text-lg">Chirp is a suite of Twitter analytics that will help you better understand your audience, which tweets they like, and most importantly, when they are the most active on Twitter.</p>
+            <!-- BUTTONS -->
+            <div class="flex flex-col sm:flex-row items-center gap-4">
+                <button class="flex w-full sm:w-auto items-center justify-center bg-twitter text-white font-medium px-6 py-3 rounded"><img  class="mr-2 w-[20px]" src="./Assets/Twitter.svg" />Sign in with Twitter</button>
+                <a class="text-learnmore font-bold text-lg">Learn more &#8594;</a>
+            </div>
+            <!-- USER AVATARS -->
+            <div class="flex mt-4">
+                <div class="flex flex-row justify-end">
+                    <img class="bg-cover bg-center w-12 h-12 -mr-5" src="./Assets/userAvatar09.svg">
+                    <img class="bg-cover bg-center w-12 h-12 -mr-5" src="./Assets/userAvatar08.svg">
+                    <img class="bg-cover bg-center w-12 h-12 -mr-5" src="./Assets/userAvatar07.svg">
+                    <img class="bg-cover bg-center w-12 h-12 -mr-5" src="./Assets/userAvatar06.svg">
+                    <img class="bg-cover bg-center w-12 h-12 -mr-5" src="./Assets/userAvatar05.svg">
+                    <img class="bg-cover bg-center w-12 h-12 -mr-5" src="./Assets/userAvatar04.svg">
+                    <img class="bg-cover bg-center w-12 h-12 -mr-5" src="./Assets/userAvatar03.svg">
+                    <img class="bg-cover bg-center w-12 h-12 -mr-5" src="./Assets/userAvatar02.svg">
+                    <img class="bg-cover bg-center w-12 h-12 -mr-5" src="./Assets/userAvatar01.svg">
+                </div>
+            </div>
+            <!-- Last Line -->
+            <p class="my-3">Join <span class="text-learnmore font-bold">195</span> others who have analyzed their followers and scheduled <span class="text-learnmore font-bold">1342</span> tweets!</p>
+            
+        </div>
+        <!-- RIGHT SIDE -->
+        <div class="lg:w-[450px] mx-auto lg:ml-auto lg:mx-0">
+            <img class="block md:hidden lg:block object-contain" style="width: 400px; height: 470px; margin-bottom: 20px;" src="./Assets/Hero Image (Desktop View).png"/>
+            <img class="hidden md:block lg:hidden" style="width: 400px; height: 470px; margin-bottom: 20px;" src="./Assets/Hero Image (Tablet View).png" />
+        </div>
+    </div>
+    </div>
+
+    <div class="bg-white" style="padding-bottom: 30px;">
+        <div class="px-8 md:px-36">
+            <h2 class="text-black font-bold text-3xl pt-12">Features that help you<br>tweet smarter.</h2>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="px-4 py-4 rounded-md border border-bor h-40">
+                    <h3 class="font-bold text-lg text-black"><span>📈</span><br>Analytics</h3>
+                    <p class="mt-2">We constantly monitor your audience as it grows — so you can Tweet when your followers are most likely to be online and ready to engage with your content.</p>
+                </div>
+                <div class="px-4 py-4 rounded-md border border-bor h-40">
+                    <h3 class="font-bold text-lg text-black">🤓<br>Smart Analyzer</h3>
+                    <p>Chirp automatically recognizes your followers' most active times and automatically sends you notifications if you're missing out on an opportunity.</p>
+                </div>
+                <div class="px-4 py-4 rounded-md border border-bor h-40">
+                    <h3 class="font-bold text-lg text-black">🗞️<br>Schedule Your Tweets</h3>
+                    <p>Quality tweets drive tons of engagements. With Chip, you can write tweets in an advance and schedule them when your audience is most likely to read.</p>
+                </div>
+                <div class="px-4 py-4 rounded-md border border-bor h-40">
+                    <h3 class="font-bold text-lg text-black">🔆<br>Dark Mode</h3>
+                    <p>Friendly on the eyes, no matter what time you write your Tweets. All colors are chosen to make sure your eyes are at ease at all times.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-body2">
+        <div class="px-8 md:px-36">
+            <h2 class="text-black font-bold text-3xl pt-14 pb-4">What our customers say</h2>
+            <div class="md:flex flex-row gap-8 py-8">
+                <div class="bg-white mb-8 px-4 py-4 sm:w-3/4 lg:w-5/12 h-2/3 rounded">
+                    <div class="flex">
+                        <img src="./Assets/userAvatar01.svg">
+                        <div style="padding-left: 8px;">
+                            <p class="font-bold text-black text-md">Sara May</p>
+                            <p class="text-xs">@sara_may</p>
+                        </div>
+                        <div style="padding-left:130px; padding-top: 8px;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                <path d="M24 4.55705C23.117 4.94905 22.168 5.21305 21.172 5.33205C22.189 4.72305 22.97 3.75805 23.337 2.60805C22.386 3.17205 21.332 3.58205 20.21 3.80305C19.313 2.84605 18.032 2.24805 16.616 2.24805C13.437 2.24805 11.101 5.21405 11.819 8.29305C7.728 8.08805 4.1 6.12805 1.671 3.14905C0.381 5.36205 1.002 8.25705 3.194 9.72305C2.388 9.69705 1.628 9.47605 0.965 9.10705C0.911 11.388 2.546 13.522 4.914 13.997C4.221 14.185 3.462 14.229 2.69 14.081C3.316 16.037 5.134 17.46 7.29 17.5C5.22 19.123 2.612 19.848 0 19.54C2.179 20.937 4.768 21.752 7.548 21.752C16.69 21.752 21.855 14.031 21.543 7.10605C22.505 6.41105 23.34 5.54405 24 4.55705Z" fill="#00ACEE"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="24" height="24" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                        </div>
+                    </div>
+                    <p class="mt-4">I just tried out @chirp and it's amazing, love all the analytics I can see.</p>
+                    <div class="flex mt-4 justify-between">
+                        <div class="flex">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.28 3C9.516 3.001 11.253 6.491 12 8.031C12.75 6.484 14.469 3.01 17.726 3.01C19.784 3.01 22 4.319 22 7.192C22 10.634 17.256 15.043 12 20.192C6.742 15.041 2 10.633 2 7.192C2 4.516 3.965 2.999 6.28 3ZM6.281 1C3.098 1 0 3.187 0 7.192C0 11.853 5.57 16.619 12 23C18.43 16.619 24 11.853 24 7.192C24 3.181 20.903 1.01 17.726 1.01C15.522 1.01 13.28 2.052 12 4.248C10.715 2.042 8.478 1 6.281 1Z" fill="#DF1414"/>
+                            </svg>
+                            <p style="padding-left:4px;">2</p>
+                        </div>
+                        <p>March 2, 2021</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white mb-8 px-4 py-4 sm:w-3/4 lg:w-5/12 rounded">
+                    <div class="flex">
+                        <img src="./Assets/userAvatar04.svg">
+                        <div style="padding-left: 8px;">
+                            <p class="font-bold text-black text-md" style="width: 90px;">Jack Scott</p>
+                            <p class="text-xs">@jackscott_</p>
+                        </div>
+                        <div style="padding-left:110px; padding-top: 8px;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                <path d="M24 4.55705C23.117 4.94905 22.168 5.21305 21.172 5.33205C22.189 4.72305 22.97 3.75805 23.337 2.60805C22.386 3.17205 21.332 3.58205 20.21 3.80305C19.313 2.84605 18.032 2.24805 16.616 2.24805C13.437 2.24805 11.101 5.21405 11.819 8.29305C7.728 8.08805 4.1 6.12805 1.671 3.14905C0.381 5.36205 1.002 8.25705 3.194 9.72305C2.388 9.69705 1.628 9.47605 0.965 9.10705C0.911 11.388 2.546 13.522 4.914 13.997C4.221 14.185 3.462 14.229 2.69 14.081C3.316 16.037 5.134 17.46 7.29 17.5C5.22 19.123 2.612 19.848 0 19.54C2.179 20.937 4.768 21.752 7.548 21.752C16.69 21.752 21.855 14.031 21.543 7.10605C22.505 6.41105 23.34 5.54405 24 4.55705Z" fill="#00ACEE"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="24" height="24" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                        </div>
+                    </div>
+                    <p class="mt-4">I initially started using Chirp to support the co-founder as I personally knew him,</p>
+                        <p>but after having tried it out for a few weeks, I can genuinely say this change my Twitter game.</p>
+                    <div class="flex mt-4 justify-between">
+                        <div class="flex">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.28 3C9.516 3.001 11.253 6.491 12 8.031C12.75 6.484 14.469 3.01 17.726 3.01C19.784 3.01 22 4.319 22 7.192C22 10.634 17.256 15.043 12 20.192C6.742 15.041 2 10.633 2 7.192C2 4.516 3.965 2.999 6.28 3ZM6.281 1C3.098 1 0 3.187 0 7.192C0 11.853 5.57 16.619 12 23C18.43 16.619 24 11.853 24 7.192C24 3.181 20.903 1.01 17.726 1.01C15.522 1.01 13.28 2.052 12 4.248C10.715 2.042 8.478 1 6.281 1Z" fill="#DF1414"/>
+                            </svg>
+                            <p style="padding-left:4px;">32</p>
+                        </div>
+                        <p>March 2, 2021</p>
+                    </div>
+                </div>
+
+                <div class="bg-white mb-8 px-4 py-4 sm:w-3/4 lg:w-1/3 h-2/3 rounded">
+                    <div class="flex">
+                        <img src="./Assets/userAvatar08.svg">
+                        <div style="padding-left: 8px;">
+                            <p class="font-bold text-black text-md" style="width: 100px;">Jessica May</p>
+                            <p class="text-xs">@jaymay98</p>
+                        </div>
+                        <div style="padding-left: 50px; padding-top: 8px;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                <path d="M24 4.55705C23.117 4.94905 22.168 5.21305 21.172 5.33205C22.189 4.72305 22.97 3.75805 23.337 2.60805C22.386 3.17205 21.332 3.58205 20.21 3.80305C19.313 2.84605 18.032 2.24805 16.616 2.24805C13.437 2.24805 11.101 5.21405 11.819 8.29305C7.728 8.08805 4.1 6.12805 1.671 3.14905C0.381 5.36205 1.002 8.25705 3.194 9.72305C2.388 9.69705 1.628 9.47605 0.965 9.10705C0.911 11.388 2.546 13.522 4.914 13.997C4.221 14.185 3.462 14.229 2.69 14.081C3.316 16.037 5.134 17.46 7.29 17.5C5.22 19.123 2.612 19.848 0 19.54C2.179 20.937 4.768 21.752 7.548 21.752C16.69 21.752 21.855 14.031 21.543 7.10605C22.505 6.41105 23.34 5.54405 24 4.55705Z" fill="#00ACEE"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="24" height="24" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                        </div>
+                    </div>
+                    <p class="mt-4">Absolutely love Chirp, from the design to how everything works smoothly.</p>
+                    <div class="flex mt-4 justify-between">
+                        <div class="flex">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.28 3C9.516 3.001 11.253 6.491 12 8.031C12.75 6.484 14.469 3.01 17.726 3.01C19.784 3.01 22 4.319 22 7.192C22 10.634 17.256 15.043 12 20.192C6.742 15.041 2 10.633 2 7.192C2 4.516 3.965 2.999 6.28 3ZM6.281 1C3.098 1 0 3.187 0 7.192C0 11.853 5.57 16.619 12 23C18.43 16.619 24 11.853 24 7.192C24 3.181 20.903 1.01 17.726 1.01C15.522 1.01 13.28 2.052 12 4.248C10.715 2.042 8.478 1 6.281 1Z" fill="#DF1414"/>
+                            </svg>
+                            <p style="padding-left:4px;">2</p>
+                        </div>
+                        <p>March 2, 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white">
+        <div class="px-8 md:px-36">
+            <div class="text-center">
+                <h2 class="text-black font-bold text-3xl pt-12 pb-4">One simple price plan.</h2>
+                <p>Start growing your Twitter account by analyzing your followers' patterns.</p>
+            </div>
+            <div class="pb-8">
+                <div class="bg-body1 mt-10 p-10 border border-lining rounded-md md:w-1/2 mx-auto">
+                    <div class="mb-4">
+                        <p>Monthly</p>
+                        <p><span class="text-4xl text-black font-bold">$9</span>/mo</p>
+                    </div>
+                    <hr class="bg-maintext opacity-30">
+                    <div class="flex mt-4 space-x-4">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM10.75 17.292L6.25 12.928L8.107 11.07L10.75 13.576L16.393 7.792L18.25 9.649L10.75 17.292Z" fill="#2ED8AF"/>
+                        </svg>
+                        <p>Unlimited scheduled* tweets and threads</p> 
+                    </div>
+                    <div class="flex mt-4 space-x-4">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM10.75 17.292L6.25 12.928L8.107 11.07L10.75 13.576L16.393 7.792L18.25 9.649L10.75 17.292Z" fill="#2ED8AF"/>
+                        </svg>
+                        <p>Schedule up to 3 weeks in advance</p> 
+                    </div>
+                    <div class="flex mt-4 space-x-4 mb-4">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM10.75 17.292L6.25 12.928L8.107 11.07L10.75 13.576L16.393 7.792L18.25 9.649L10.75 17.292Z" fill="#2ED8AF"/>
+                        </svg>
+                        <p>Real-time audience analytics tracking up to 5k followers</p> 
+                    </div>
+                    <hr class="bg-maintext opacity-30">
+                    <button class="text-white flex py-2.5 bg-twitter w-full justify-center items-center rounded font-medium">
+                        <svg class="mr-2 mt-0.5" width="20" height="18" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 2.55699C23.117 2.94899 22.168 3.21299 21.172 3.33199C22.189 2.72299 22.97 1.75799 23.337 0.607986C22.386 1.17199 21.332 1.58199 20.21 1.80299C19.313 0.845986 18.032 0.247986 16.616 0.247986C13.437 0.247986 11.101 3.21399 11.819 6.29299C7.728 6.08799 4.1 4.12799 1.671 1.14899C0.381 3.36199 1.002 6.25699 3.194 7.72299C2.388 7.69699 1.628 7.47599 0.965 7.10699C0.911 9.38799 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10599C22.505 4.41099 23.34 3.54399 24 2.55699Z" fill="white"/>
+                        </svg>
+                        Start trial with Twitter
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-body2 py-6 px-8 md:px-16">
+        <div class="container md:flex justify-between items-center mx-auto px-16 md:px-20 w-full">
+            <div class="text-twitter font-bold italic text-lg"><a href="./index.html">Chirp.</a></div>
+            <div class="text-md flex gap-6 text-black font-medium items-center">
+                <img src="./Assets/Twitter (Black).svg">
+                <a>Privacy Policy</a>
+                <a>Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+    </body>
+</html>
